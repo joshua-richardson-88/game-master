@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "ui_components": ["./src/components/ui/index.ts"],
+      "components": ["./src/components/stated/index.ts"],
+      "hooks/*": ["./src/hooks/*"],
+      "icons": ["./src/components/icons/index.ts"],
+      "features/*": ["./src/features/*"],
+      "pages": ["./src/pages/index.ts"],
+      "state/*": ["./src/state/*"],
+      "styles/*": ["./src/styles/*"]
+    }
+  }
+}
